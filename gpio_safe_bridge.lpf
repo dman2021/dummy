@@ -1,0 +1,5 @@
+LOCATE COMP "clk_25mhz" SITE "J1";
+IOBUF PORT "clk_25mhz" IO_TYPE=LVCMOS33;
+
+LOCATE COMP "dummy_out" SITE "B2";  # use any safe pin not wired to ESP32
+IOBUF PORT "dummy_out" IO_TYPE=LVCMOS33;
